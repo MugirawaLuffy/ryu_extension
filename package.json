@@ -1,0 +1,25 @@
+{
+    "name": "ryu",
+    "displayName": "ryu",
+    "description": "Syntax highlighting for Santuryu compiled .ryu language files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ryu",
+            "aliases": ["Santuryu", "ryu"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ryu",
+            "scopeName": "",
+            "path": "./syntaxes/ryu.tmLanguage.json"
+        }]
+    }
+}
